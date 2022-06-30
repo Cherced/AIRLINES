@@ -1,0 +1,21 @@
+.footerNavBar--Container {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    .navbar-Item-Content {
+        width: 90%;
+        height: 100%;
+        h1 {
+            color: #FB3640;
+            text-align: left;
+            font: normal normal 300 18px/22px Roboto;
+            letter-spacing: 0px;
+            color: #FB3640;
+            opacity: 1;
+            margin-bottom: 10px;
+        }
+    }
+}

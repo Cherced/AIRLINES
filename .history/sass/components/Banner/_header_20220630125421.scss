@@ -1,0 +1,20 @@
+.header--Container{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navBar--Container{
+        color: white;
+        opacity: 1;
+        .itmes-Navbar--Container{
+            list-style: none;
+            display: flex;
+            li{
+                height: 100%;
+                width: auto;
+                padding: 20px;
+            }
+        }
+    }
+}

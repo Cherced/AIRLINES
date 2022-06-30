@@ -1,0 +1,24 @@
+@import "../components/Banner/header";
+@import "../components/Banner/promotion";
+
+.main-Banner--Container{
+    height: 475px;
+    width: 100%;
+    background-image: url("../../public/images/plane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idiomsShower{
+    z-index: 3;
+    position: absolute;
+    left: calc(100% - 79px);
+    display: flex;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}

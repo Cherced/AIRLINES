@@ -1,0 +1,36 @@
+@import "../components/Banner/header";
+@import "../components/Banner/promotion";
+
+.main-Banner--Container {
+    height: 475px;
+    width: 100%;
+    background-image: url("../../public/images/plane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idiomsShower {
+    z-index: 3;
+    position: absolute;
+    left: calc(100% - 130px);
+    display: flex;
+
+    button {
+        background: transparent;
+        border: none;
+        text-align: left;
+        font: normal normal 500 18px/22px Roboto;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+
+    }
+}

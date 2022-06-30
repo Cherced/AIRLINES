@@ -1,0 +1,14 @@
+.SocialMedia--Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    .iconsSocialMedia--Container{
+        display: flex;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

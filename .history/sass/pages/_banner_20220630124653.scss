@@ -1,0 +1,10 @@
+@import "../components/Banner/header";
+@import "../components/Banner/promotion";
+
+.main-Banner--Container{
+    height: 475px;
+    width: 100%;
+    background-image: url("../../public/images/plane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

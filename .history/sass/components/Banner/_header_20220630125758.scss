@@ -1,0 +1,21 @@
+.header--Container{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navBar--Container{
+        color: white;
+        opacity: 1;
+        .itmes-Navbar--Container{
+            list-style: none;
+            display: flex;
+            height: 70px;
+            li{
+
+                width: auto;
+                padding: 20px 20px 5px 20px ;
+            }
+        }
+    }
+}
