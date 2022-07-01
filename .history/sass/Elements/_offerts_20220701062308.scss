@@ -241,15 +241,14 @@
                 width: 400px;
                 height: 500px;
                 #EXPECIFFFYYY li:nth-child(5) {
-                    border: none;
+                    border-radius: 6px;
                 }
                 .menuAside-Navbar--Container {
-                    width: 100%;
                     .list-Items--Container {
-                        height: 283px;
-                        width: 113%;
+                        height: 289px;
+
                         li {
-                            padding: 25px 40px;
+                            padding: 23px 23px;
                         }
                     }
                 }
