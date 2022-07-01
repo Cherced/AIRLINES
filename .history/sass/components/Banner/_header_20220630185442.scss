@@ -1,0 +1,54 @@
+.header--Container {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        font-family: $preSetFont;
+        font-size: 36px;
+        text-align: left;
+        color: white;
+        letter-spacing: 0px;
+    }
+
+    .navBar--Container {
+        color: white;
+        opacity: 1;
+
+        .itmes-Navbar--Container {
+            list-style: none;
+            display: flex;
+            height: 70px;
+
+            li {
+                width: auto;
+                padding: 40px 20px 0 20px;
+
+                a {
+                    font-family: $preSetFont;
+                    font-size: 18px;
+                    letter-spacing: 0px;
+                }
+
+                a:hover {
+                    border-bottom: 2px solid white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    .header--Container {
+        .navBar--Container{
+            .itmes-Navbar--Container{
+                ul{
+                    
+                }
+            }
+        }
+    }
+
+}
