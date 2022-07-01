@@ -350,64 +350,6 @@
 
 
 
-@media screen and (max-width: 1180px)  {
-    .offers-Section--Container {
-        height: 990px;
-
-        .offers-BoxModel--Container {
-            .offers-BoxModel-Content {
-                hr {
-                    margin-left: 200px;
-                }
-
-                h3 {
-                    margin-left: 200px;
-                    margin-bottom: 80px;
-                }
-
-                .promotional-Cards--Container {
-                    display: flex;
-                    margin-bottom: 45px;
-                    flex-wrap: wrap;
-
-                    .promotionalCard {
-                        width: 233px;
-                        height: 208px;
-                        border-radius: 60px;
-                        margin-right: 30px;
-                        margin-bottom: 30px;
-                    }
-                }
-            }
-
-            .menuAside--Container {
-                width: 400px;
-                height: 550px;
-
-                #EXPECIFFFYYY li:nth-child(5) {
-                    border: none;
-                }
-
-                .menuAside-Navbar--Container {
-                    width: 100%;
-
-                    .list-Items--Container {
-                        height: 283px;
-                        width: 113%;
-
-                        li {
-                            padding: 25px 40px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-
 @media screen and (max-width: 1024px) {
     .offers-Section--Container {
         height: 700px;
@@ -530,54 +472,6 @@
             .menuAside--Container {
                 height: 560px;
                 width: 350px;
-                margin-right: 0;
-
-                #EXPECIFFFYYY li:nth-child(5) {
-                    border: none;
-                }
-
-            }
-        }
-    }
-}
-
-
-
-@media screen and (max-width: 912px) {
-    .offers-Section--Container {
-        height: 910px;
-
-        .offers-BoxModel--Container {
-            .offers-BoxModel-Content {
-                hr {
-                    margin-left: 0;
-                }
-
-                h3 {
-                    margin-left: 0;
-                    margin-bottom: 30px;
-                }
-
-                .promotional-Cards--Container {
-                    display: flex;
-                    margin-bottom: 45px;
-                    flex-wrap: wrap;
-                    align-items: stretch;
-                    justify-content: center;
-
-                    .promotionalCard {
-                        width: 233px;
-                        height: 208px;
-                        border-radius: 60px;
-                        margin-right: 30px;
-                        margin-bottom: 30px;
-                    }
-                }
-            }
-
-            .menuAside--Container {
-                height: 500px;
-                width: 450px;
                 margin-right: 0;
 
                 #EXPECIFFFYYY li:nth-child(5) {
@@ -1039,64 +933,6 @@
 
             .menuAside--Container {
                 height: 560px;
-                width: 235px;
-                margin-bottom: 35px;
-                margin-top: 15px;
-                margin-right: 0;
-
-                #EXPECIFFFYYY li:nth-child(5) {
-                    border: none;
-                }
-
-            }
-        }
-    }
-}
-
-
-
-@media screen and (max-width: 540px) {
-    .offers-Section--Container {
-        height: 1600px;
-
-        .offers-BoxModel--Container {
-            width: 90%;
-            display: flex;
-            justify-content: space-between;
-            margin-top: 40px;
-            flex-direction: column-reverse;
-            align-items: center;
-
-            .offers-BoxModel-Content {
-
-                hr {
-                    margin-left: 0;
-                }
-
-                h3 {
-                    margin-left: 0;
-                    margin-bottom: 30px;
-                }
-
-                .promotional-Cards--Container {
-                    display: flex;
-                    margin-bottom: 45px;
-                    flex-wrap: wrap;
-                    align-items: stretch;
-                    justify-content: center;
-
-                    .promotionalCard {
-                        width: 233px;
-                        height: 208px;
-                        border-radius: 60px;
-                        margin-right: 25px;
-                        margin-bottom: 35px;
-                    }
-                }
-            }
-
-            .menuAside--Container {
-                height: 440px;
                 width: 235px;
                 margin-bottom: 35px;
                 margin-top: 15px;
