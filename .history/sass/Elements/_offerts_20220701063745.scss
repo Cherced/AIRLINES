@@ -173,61 +173,6 @@
 
 
 
-@media screen and (max-width: 1440px)  {
-    .offers-Section--Container {
-        height: 800px;
-
-        .offers-BoxModel--Container {
-            .offers-BoxModel-Content {
-                hr {
-                    margin-left: 200px;
-                }
-
-                h3 {
-                    margin-left: 200px;
-                }
-
-                .promotional-Cards--Container {
-                    display: flex;
-                    margin-bottom: 45px;
-                    flex-wrap: wrap;
-
-                    .promotionalCard {
-                        width: 233px;
-                        height: 208px;
-                        border-radius: 60px;
-                        margin-right: 30px;
-                        margin-bottom: 30px;
-                    }
-                }
-            }
-
-            .menuAside--Container {
-                width: 400px;
-                height: 500px;
-
-                #EXPECIFFFYYY li:nth-child(5) {
-                    border: none;
-                }
-
-                .menuAside-Navbar--Container {
-                    width: 100%;
-
-                    .list-Items--Container {
-                        height: 283px;
-                        width: 113%;
-
-                        li {
-                            padding: 25px 40px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
 
 @media screen and (max-width: 1366px) and (min-height: 1024px) {
     .offers-Section--Container {
