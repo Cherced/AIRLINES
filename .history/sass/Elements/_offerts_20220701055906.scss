@@ -208,9 +208,9 @@
 
 
 
-@media screen and (max-width: 1024px) and (min-height: 600px) {
+@media screen and (max-width: 1024px) and (min-height: 768px) {
     .offers-Section--Container {
-        height: 950px;
+        height: 700px;
 
         .offers-BoxModel--Container {
             .offers-BoxModel-Content {
@@ -236,25 +236,9 @@
                     }
                 }
             }
-
-            .menuAside--Container {
-                width: 400px;
-                height: 500px;
-                #EXPECIFFFYYY li:nth-child(5) {
-                    border-radius: 6px;
-                }
-                .menuAside-Navbar--Container {
-                    .list-Items--Container {
-                        height: 289px;
-
-                        li {
-                            padding: 23px 23px;
-                        }
-                    }
-                }
-            }
         }
     }
+
 }
 
 

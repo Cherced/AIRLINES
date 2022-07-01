@@ -236,25 +236,13 @@
                     }
                 }
             }
-
-            .menuAside--Container {
-                width: 400px;
-                height: 500px;
-                #EXPECIFFFYYY li:nth-child(5) {
-                    border-radius: 6px;
-                }
-                .menuAside-Navbar--Container {
-                    .list-Items--Container {
-                        height: 289px;
-
-                        li {
-                            padding: 23px 23px;
-                        }
-                    }
-                }
+            .menuAside--Container{
+                background-color: #000029;
             }
         }
+
     }
+
 }
 
 
