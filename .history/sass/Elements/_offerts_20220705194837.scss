@@ -1,0 +1,1346 @@
+.offers__container {
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .offers__textContainer {
+        padding-top: 45px;
+        width: 90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+
+        .offers__textContainer--text {
+            color: #247BA0;
+            text-align: left;
+            font: normal normal 400 26px/32px Roboto;
+            letter-spacing: 0px;
+            color: #247BA0;
+            opacity: 1;
+        }
+
+        .offers__textContainer--titleLine {
+            margin: 0 30px;
+            width: 90%;
+        }
+    }
+
+    .offers__section {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .offers__section--container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            
+            .offers__section--line {
+                width: 40%;
+                margin: 10px 0 10px;
+            }
+
+            .offers__section--title {
+                text-align: left;
+                font: normal normal bold 16px/19px Roboto;
+                letter-spacing: 0px;
+                color: #605F5E;
+                opacity: 1;
+            }
+
+
+        }
+    }
+}
+
+/* 
+
+@media screen and (max-width: 2650px) {
+    .offers-Section--Container {
+        .offers-BoxModel--Container {
+            width: 60%;
+        }
+    }
+}
+
+@media screen and (max-width: 1440px)  {
+    .offers-Section--Container {
+        height: 800px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 200px;
+                }
+
+                h3 {
+                    margin-left: 200px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                width: 400px;
+                height: 500px;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+                .menuAside-Navbar--Container {
+                    width: 100%;
+
+                    .list-Items--Container {
+                        height: 283px;
+                        width: 113%;
+
+                        li {
+                            padding: 25px 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1280px)  {
+    .offers-Section--Container {
+        height: 990px;
+    }
+}
+
+
+@media screen and (max-width: 1366px) and (min-height: 1024px) {
+    .offers-Section--Container {
+        height: 800px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 200px;
+                }
+
+                h3 {
+                    margin-left: 200px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                width: 400px;
+                height: 500px;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+                .menuAside-Navbar--Container {
+                    width: 100%;
+
+                    .list-Items--Container {
+                        height: 283px;
+                        width: 113%;
+
+                        li {
+                            padding: 25px 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200) and (min-height: 800px){
+    .offers-Section--Container {
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .offers-Title--Container {
+        padding-top: 45px;
+        width: 90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+
+        h1 {
+            color: #247BA0;
+            text-align: left;
+            font: normal normal 400 26px/32px Roboto;
+            letter-spacing: 0px;
+            color: #247BA0;
+            opacity: 1;
+        }
+
+        hr {
+            margin: 0 30px;
+            width: 90%;
+        }
+    }
+
+    .offers-BoxModel--Container {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .offers-BoxModel-Content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .promotional-Cards--Container {
+                display: flex;
+                margin-bottom: 70px;
+
+                .promotionalCard {
+                    width: 233px;
+                    height: 208px;
+                    border-radius: 60px;
+                    margin-right: 30px;
+
+                    img {
+                        border: 1px solid black;
+                        box-shadow: 2px 3px 8px #000029;
+                        opacity: 1;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 16px;
+                        object-fit: cover;
+                        z-index: -1;
+                    }
+
+                    .promotionalCard--Info {
+                        position: relative;
+                        height: 85px;
+                        top: -89px;
+                        background: rgba(0, 0, 0, 0.6784313725) 0% 0% no-repeat padding-box;
+                        border-radius: 0px 0px 15px 15px;
+                        opacity: 1;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        p {
+                            text-align: left;
+                            font: normal normal 300 16px/19px Roboto;
+                            letter-spacing: 0px;
+                            color: #FFFFFF;
+                            opacity: 1;
+                            padding-top: 10px;
+                            padding-right: 90px;
+                            padding-left: 10px;
+                        }
+
+                        h1 {
+                            text-align: left;
+                            font: normal normal bold 20px/24px Roboto;
+                            letter-spacing: 0px;
+                            color: #FFFFFF;
+                            opacity: 1;
+                            padding-top: 20px;
+                            padding-left: 60px;
+                        }
+                    }
+                }
+
+            }
+
+            hr {
+                width: 40%;
+                margin: 10px 0 10px;
+            }
+
+            h3 {
+                text-align: left;
+                font: normal normal bold 16px/19px Roboto;
+                letter-spacing: 0px;
+                color: #605F5E;
+                opacity: 1;
+            }
+
+        }
+
+        .menuAside--Container {
+            width: 233px;
+            height: 327px;
+            display: flex;
+            box-shadow: 2px 3px 8px #000029;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 15px;
+
+            h1 {
+                text-align: left;
+                font: normal normal 300 20px/24px Roboto;
+                letter-spacing: 0px;
+                color: #605F5E;
+                opacity: 1;
+            }
+
+            #EXPECIFFFYYY li:nth-child(5) {
+                border-radius: 15px;
+            }
+
+            ul {
+                list-style-type: disclosure-closed;
+                list-style-position: inside;
+                color: #247BA0;
+                width: 115%;
+                height: 219px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-right: 34px;
+
+                li {
+                    width: 100%;
+                    padding: 15px 20px;
+                    border-bottom: 0.5px solid #605F5E;
+
+                    a {
+                        text-align: left;
+                        font: normal normal 300 16px/19px Roboto;
+                        letter-spacing: 0px;
+                        color: #605F5E;
+                        opacity: 1;
+                    }
+                }
+
+            }
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 1138px)  {
+    .offers-Section--Container {
+        height: 990px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 200px;
+                }
+
+                h3 {
+                    margin-left: 200px;
+                    margin-bottom: 80px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                width: 400px;
+                height: 550px;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+                .menuAside-Navbar--Container {
+                    width: 100%;
+
+                    .list-Items--Container {
+                        height: 283px;
+                        width: 113%;
+
+                        li {
+                            padding: 25px 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1180px)  {
+    .offers-Section--Container {
+        height: 990px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 200px;
+                }
+
+                h3 {
+                    margin-left: 200px;
+                    margin-bottom: 80px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                width: 400px;
+                height: 550px;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+                .menuAside-Navbar--Container {
+                    width: 100%;
+
+                    .list-Items--Container {
+                        height: 283px;
+                        width: 113%;
+
+                        li {
+                            padding: 25px 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .offers-Section--Container {
+        height: 700px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 200px;
+                }
+
+                h3 {
+                    margin-left: 200px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-height: 600px) {
+    .offers-Section--Container {
+        height: 950px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 200px;
+                }
+
+                h3 {
+                    margin-left: 200px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                width: 400px;
+                height: 500px;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border-radius: 6px;
+                }
+
+                .menuAside-Navbar--Container {
+                    .list-Items--Container {
+                        height: 289px;
+
+                        li {
+                            padding: 23px 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 926px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 560px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 912px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 500px;
+                width: 450px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 896px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 560px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 560px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 560px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 480px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 235px;
+                }
+
+                h3 {
+                    margin-left: 235px;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 500px;
+                width: 350px;
+                margin-right: 30px;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .offers-Section--Container {
+        height: 980px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 499px;
+                width: 170px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 560px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 712px) {
+    .offers-Section--Container {
+        height: 910px;
+
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 474px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 667px) {
+    .offers-Section--Container {
+        .offers-BoxModel--Container {
+            .offers-BoxModel-Content {
+                .promotional-Cards--Container {
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 550px;
+                width: 350px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .offers-Section--Container {
+        height: 1450px;
+
+        .offers-BoxModel--Container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .offers-BoxModel-Content {
+
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 25px;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 560px;
+                width: 235px;
+                margin-bottom: 35px;
+                margin-top: 15px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .offers-Section--Container {
+        height: 1600px;
+
+        .offers-BoxModel--Container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .offers-BoxModel-Content {
+
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 25px;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 440px;
+                width: 235px;
+                margin-bottom: 35px;
+                margin-top: 15px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .offers-Section--Container {
+        height: 1650px;
+
+        .offers-BoxModel--Container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .offers-BoxModel-Content {
+
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 0;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 550px;
+                width: 235px;
+                margin-bottom: 35px;
+                margin-top: 35px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 428px) {
+    .offers-Section--Container {
+        height: 1450px;
+
+        .offers-BoxModel--Container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .offers-BoxModel-Content {
+
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 0;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 430px;
+                width: 235px;
+                margin-bottom: 35px;
+                margin-top: 35px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .offers-Section--Container {
+        height: 1450px;
+
+        .offers-BoxModel--Container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .offers-BoxModel-Content {
+
+                hr {
+                    margin-left: 0;
+                }
+
+                h3 {
+                    margin-left: 0;
+                    margin-bottom: 30px;
+                }
+
+                .promotional-Cards--Container {
+                    display: flex;
+                    margin-bottom: 45px;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: center;
+
+                    .promotionalCard {
+                        width: 233px;
+                        height: 208px;
+                        border-radius: 60px;
+                        margin-right: 0;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+
+            .menuAside--Container {
+                height: 430px;
+                width: 235px;
+                margin-bottom: 35px;
+                margin-top: 35px;
+                margin-right: 0;
+
+                #EXPECIFFFYYY li:nth-child(5) {
+                    border: none;
+                }
+
+            }
+        }
+    }
+} */
