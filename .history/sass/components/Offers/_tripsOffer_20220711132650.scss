@@ -1,0 +1,141 @@
+//estilos de carrusel de muestra de destinos
+
+.cards {
+    display: flex;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+
+    .cards__nav--button {
+        border-radius: 60px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        margin-right: 30px;
+        width: 233px;
+        height: 208px;
+    }
+
+    .cards__nav {
+        width: 100%;
+        .cards__nav--list {
+            list-style: none;
+            .cards__nav--info {
+                position: relative;
+                height: 124px;
+                top: -212px;
+                background: rgba(0, 0, 0, 0.6784313725) 0% 0% no-repeat padding-box;
+                border-radius: 15px 15px 0px 0px;
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .cards__info--parragraph {
+                    text-align: left;
+                    font: normal normal 300 16px/19px Roboto;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    padding: 0 8px;
+                }
+            }
+
+            .offInfo {
+                opacity: 0;
+                transform: translateY(100px);
+                transition: all 3s ease-in-out;
+            }
+
+            .onInfo {
+                opacity: 1;
+                transform: translateY(0);
+                transition: all 2s ease-in-out;
+            }
+
+            .cards__nav--item {
+                position: relative;
+                height: 85px;
+                top: -2px;
+                background: rgba(0, 0, 0, 0.6784313725) 0% 0% no-repeat padding-box;
+                border-radius: 0px 0px 15px 15px;
+                opacity: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .cards__item--destiny {
+                    text-align: left;
+                    font: normal normal 300 16px/19px Roboto;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    padding-top: 10px;
+                    padding-right: 89px;
+                    padding-left: 10px;
+                }
+            }
+            
+            .cards__nav--price {
+                text-align: left;
+                font: normal normal bold 20px/24px Roboto;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+                padding-top: 20px;
+                padding-left: 60px;
+            }
+        }
+    }
+
+    .moscow {
+        background-image: url("../../../public/images/moscow.jpg");
+        border: 1px solid black;
+        box-shadow: 2px 3px 8px #000029;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .puertoRico {
+        background-image: url("../../../public/images/puerto-rico.jpg");
+        border: 1px solid black;
+        box-shadow: 2px 3px 8px #000029;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .honduras {
+        background-image: url("../../../public/images/honduras.jpg");
+        border: 1px solid black;
+        box-shadow: 2px 3px 8px #000029;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .cards .cards__nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .cards__nav--list {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+
+}
