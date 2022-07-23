@@ -110,7 +110,7 @@
         height: 208px;
         border-radius: 16px;
         object-fit: cover;
-     
+       /*  z-index: -1; */
     }
 
     .puertoRico {
@@ -122,7 +122,7 @@
         height: 208px;
         border-radius: 16px;
         object-fit: cover;
-       
+        z-index: -1;
     }
 
     .honduras {
@@ -134,7 +134,7 @@
         height: 208px;
         border-radius: 16px;
         object-fit: cover;
-       
+        z-index: -1;
     }
 }
 
