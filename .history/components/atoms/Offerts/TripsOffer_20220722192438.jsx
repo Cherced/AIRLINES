@@ -11,8 +11,8 @@ export const TripsOffer = () => {
 
   return (
       <section className="cards">
-        <button onClick={() => setGateInfo(!gateInfo)} className="cards__nav--button moscow">
-        <nav  className="cards__nav ">
+        <button onClick={() => setGateInfo(!gateInfo)} className="cards__nav--button">
+        <nav  className="cards__nav moscow">
         <ul className="cards__nav--list">
             <li className={ gateInfo ? ("cards__nav--info onInfo"):("cards__nav--info offInfo")}>
                 <a className="cards__info--parragraph">
@@ -32,8 +32,8 @@ export const TripsOffer = () => {
         </ul>
         </nav>
         </button>   
-        <button onClick={() => setGateInfoOne(!gateInfoOne)} className="cards__nav--button puertoRico">
-        <nav  className="cards__nav ">
+        <button onClick={() => setGateInfoOne(!gateInfoOne)} className="cards__nav--button">
+        <nav  className="cards__nav puertoRico">
         <ul className="cards__nav--list">
             <li className={ gateInfoOne ? ("cards__nav--info onInfo"):("cards__nav--info offInfo")}>
                 <a className="cards__info--parragraph">
@@ -53,8 +53,8 @@ export const TripsOffer = () => {
         </ul>
         </nav>
         </button>
-        <button onClick={() => setGateInfoTwo(!gateInfoTwo)} className="cards__nav--button honduras">
-        <nav  className="cards__nav ">        
+        <button onClick={() => setGateInfoTwo(!gateInfoTwo)} className="cards__nav--button">
+        <nav  className="cards__nav honduras">        
         <ul className="cards__nav--list">
             <li className={ gateInfoTwo ? ("cards__nav--info onInfo"):("cards__nav--info offInfo")}>
                 <a className="cards__info--parragraph">
