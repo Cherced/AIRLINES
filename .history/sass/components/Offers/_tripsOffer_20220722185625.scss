@@ -15,18 +15,11 @@
     }
 
     .cards__nav {
-        border-radius: 60px;
         width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
+        height: 100%;   
 
         .cards__nav--list {
             list-style: none;
-            width: 100%;
-    height: 100%;
 
             .cards__nav--info {
                 position: relative;
@@ -144,7 +137,7 @@
         flex-wrap: wrap;
         justify-content: center;
 
-        .cards__nav--button {
+        .cards__nav{
             margin: 30px;
         }
 

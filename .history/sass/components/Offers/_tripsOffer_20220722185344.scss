@@ -10,23 +10,16 @@
         background: transparent;
         border: none;
         cursor: pointer;
+        
         width: 233px;
         height: 208px;
     }
 
     .cards__nav {
-        border-radius: 60px;
         width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
 
         .cards__nav--list {
             list-style: none;
-            width: 100%;
-    height: 100%;
 
             .cards__nav--info {
                 position: relative;
