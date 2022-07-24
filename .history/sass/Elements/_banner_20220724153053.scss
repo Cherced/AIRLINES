@@ -1,0 +1,96 @@
+@import "../components/Banner/header";
+@import "../components/Banner/floatMenu";
+@import "../components/Banner/promotion";
+@import "../components/Banner/modalIdioms";
+
+.banner {
+    height: 475px;
+    width: 100%;
+   /*  background-image: url("../../public/images/plane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idioms--menu {
+    margin-top: 7px;
+    z-index: 3;
+    position: absolute;
+    left: calc(100% - 130px);
+    display: flex;
+
+    .arrowButton--Modal {
+        background: transparent;
+        border: none;
+        text-align: left;
+        font: normal normal 400 18px/22px Roboto;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .menu-image {
+        width: 25px;
+        height: 25px;
+    }
+    .menu-Btn{
+        display: none;
+    }
+
+
+
+}
+
+.onn {
+
+    .arrowImg--Modal {
+        width: 25px;
+        height: 25px;
+        transform: rotate(180deg);
+        transition: all 0.5s ease-in;
+    }
+
+}
+
+
+.offf {
+
+    .arrowImg--Modal{
+        width: 25px;
+        height: 25px;
+        transform: rotate(-360deg);
+        transition: all 0.5s ease-in;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .idioms--menu{
+        left: calc(100% - 100px);
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .idioms--menu{
+        margin-top: 15px;
+        left: calc(100% - 100px);
+        .menu-Btn{
+            display: block;
+            margin-left: 15px;
+            background: transparent;
+            border: none;
+        }
+
+    }
+}  
+
+
+@media screen and (max-width: 425px) {
+    .idioms--menu{
+        left: calc(100% - 100px);
+    }
+}
